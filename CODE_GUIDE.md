@@ -84,10 +84,3 @@ git add CODE_GUIDE.md
 git commit -m "Clarify analysis code with SQL examples and pandas comments"
 git push
 ```
-
-## 면접에서 설명할 핵심
-
-1. “첫날 여러 상품을 구매한 것을 재구매로 보지 않아 1~30일로 정했습니다.”
-2. “데이터 종료 직전 고객은 30일을 관찰할 수 없어 분모에서 제외했습니다.”
-3. “큰 CSV를 나누어 읽되, 고객이 여러 청크에 나타나도 한 번만 세도록 처리했습니다.”
-4. “채널별 차이는 고객 구성의 영향을 받을 수 있어 인과효과라고 해석하지 않았습니다.”
