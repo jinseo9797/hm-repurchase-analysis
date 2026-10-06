@@ -1,0 +1,26 @@
+# Python 가상환경과 캐시
+.venv
+venv
+__pycache__
+.pyc
+
+# 로컬 환경 설정
+.env
+.env.
+.vscode
+
+# 원본 및 고객별 데이터
+dataraw
+dataprocessed
+
+# 집계 결과만 업로드 허용
+!dataprocessedmonthly_repurchase_30d.csv
+!dataprocessedchannel_repurchase_30d.csv
+!dataprocessedmonthly_channel_repurchase_30d.csv
+!dataprocessedmonthly_channel_activity.csv
+
+# 로그 및 임시 파일
+.log
+~$
+Thumbs.db
+.DS_Store
