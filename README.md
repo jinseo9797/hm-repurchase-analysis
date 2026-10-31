@@ -62,8 +62,8 @@ H&M 공개 구매 이력을 활용해 **첫 구매가 관측된 고객이 30일 
 
 ## 5. 분석 코드와 실행 안내
 
-분석은 **Python과 pandas로 수행**했습니다. Python 스크립트의 SQL 주석은 같은 로직을 이해하기 위한 **설명용 예시**이며, SQL 엔진에서 실행한 분석으로 소개하지 않습니다.
+분석 코드는 **Python과 pandas**로 작성했으며, 시각화에는 Matplotlib를 사용했습니다. 스크립트는 `01_check_data.py`부터 `10_check_channel_activity.py`까지 순서대로 실행합니다.
 
-데이터는 [Kaggle H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)에서 내려받습니다. 원본 데이터의 재배포 조건을 확인하고, 스크립트에 적힌 로컬 입력 경로 및 실행 순서에 따라 분석을 재현할 수 있습니다. 대용량 거래 CSV는 10만 행 단위로 나누어 처리했습니다.
+데이터는 [Kaggle H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)에서 내려받습니다. 원본 CSV(`articles.csv`, `customers.csv`, `transactions_train.csv`)를 `data/raw/`에 두고 실행합니다. 원본 데이터의 재배포 조건을 확인해 직접 업로드하지 않았습니다. 대용량 거래 CSV는 10만 행 단위로 나누어 처리했습니다.
 
 **핵심 결과는 공개 데이터를 재분석한 개인 프로젝트의 결과이며, 실제 서비스를 대상으로 실시한 실험 성과가 아닙니다.**
